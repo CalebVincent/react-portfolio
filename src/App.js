@@ -23,6 +23,7 @@ function App() {
       <Header />
       <Wrapper>
       <Switch>
+        <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/cv-react-portfolio" component={Home} />

@@ -6,12 +6,7 @@ function Gallery() {
     return (
         <div id="hero-text">
             <h1>Gallery</h1>
-            <ul>
-                <li><Project /></li>
-                <li><Project /></li>
-                <li><Project /></li>
-                <li><Project /></li>
-            </ul>
+            <Project />
         </div>
     )
 }
