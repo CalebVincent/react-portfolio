@@ -8,7 +8,7 @@ function Home() {
             <h1>Caleb Vincent</h1>
             <p>And I'm a Web Developer</p>
             <Link className="btn btn-primary" to="/contact">Contact Me  </Link>|
-            <Link id="galleryBtn" to="/gallery">              View Previous Work</Link>
+            <Link className="btn btn-secondary" to="/gallery">          View Previous Work</Link>
         </div>
     )
 }
