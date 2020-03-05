@@ -1,10 +1,10 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Contact from "./components/Contact";
-import Wrapper from "./components/Wrapper"
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home";
+import Contact from "./components/Contact/Contact";
+import Wrapper from "./components/Wrapper/Wrapper";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
