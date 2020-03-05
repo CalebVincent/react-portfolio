@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import "./style.css";
 
-function Navbar() {
+function Header() {
     return(
         <div>
         <Link to="/home">Home</Link>|
@@ -12,4 +12,4 @@ function Navbar() {
     )
 }
 
-export default Navbar;
+export default Header;
